@@ -25,9 +25,12 @@ body {
         text-align: center;
     }
     
+    /* default flex for navbar-nav is column, i.e. each link takes one column, 
+    so we need to change to row to have them in one line. 
+    also need to changing margin to make the list centered */
     .navbar-nav {
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
+        flex-direction: row;
     }
  }
