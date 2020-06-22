@@ -13,7 +13,8 @@
   <body>
     <!-- Start Nav -->
     <nav class="navbar navbar-light bg-white p-0 navbar-expand-md">
-      <span class="navbar-brand bg-info h1 text-white">Angelina Ma</span>
+      <div class="container-md">
+        <span class="navbar-brand bg-info text-white h1">Angelina Ma</span>
         <ul class="navbar-nav ml-auto p-3">
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -32,42 +33,36 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
-      <!-- </div> -->
+      </div>
     </nav>
     <!-- End Nav -->
     <!-- start main content -->
-    <main>
-      <div class="container">
+    <main class="mt-4 container-md">
+      <div class="container-md">
         <div class="row">
-          <div class="col-md-8">
+          <!-- in the readme hint said we should set xs and sm differently but the threshold should be md (>=768px) -->
+          <div class="col-s-12 col-md-8 border bg-white">
             <div class="page-header">
-              <h1>About Me</h1>
+              <h1 class="h1 text-info">About Me</h1>
             </div>
             <div class="row">
               <div class="col-md-3">
-                <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+                <img src="Assets/Images/Angelina_Horizotal.jpg" alt="Angelina travel pic" class="img-thumbnail">
               </div>
               <div class="col-md-9">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
-                  nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-                  felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-                  non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-                  luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
-                  neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-                  dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-                  posuere sem congue a.
+                  My name is Angelina Ma (Chinese: 马冰清). Currently, I am working as a software engineer at Amazon.
+                  I live with my boyfriend in South Lake Union, Seattle. Before moving to Seattle, I had quite a journey. 
+                  I came to the States in Aug 2015. I went to Cornell University and graduated in May 2018 with masters in 
+                  Chemical Engineering and Computer Science. After my graduation, at first, I lived in SF Bay Area and worked
+                  for start-up called Lime.
                 </p>
-              </div>
-            </div>
-          </div>
-          <!--Create Card taking up 4 Columns-->
-          <div class="col-md-4">
-            <div class="card mt-2">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  Outside of work, I enjoy travelling, live music, hiking, kayaking and (guilty as charged) shopping design brands.
+                  The current pandemic really affects me to go out and about tho. If you want to know me more, please use the contact
+                  link to leave a message. I am always willing to make new friends.
+                <p>
+                  
+                </p>
               </div>
             </div>
           </div>
