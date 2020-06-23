@@ -1,9 +1,8 @@
-html {
+html,body {
     height: 100%;
 }
 
 body {
-    height: 100%;
     display: flex;
     flex-direction: column;
     background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);
@@ -44,13 +43,10 @@ footer {
         text-align: center;
     }
     
-    /* default flex for navbar-nav is column, i.e. each link takes one column, 
-    so we need to change to row to have them in one line. 
-    also need to changing margin to make the list centered */
+    /* need to change margin to make the list centered */
     .navbar-nav {
         margin-left: auto;
         margin-right: auto;
-        flex-direction: row;
     }
  }
 
