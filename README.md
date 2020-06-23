@@ -10,3 +10,7 @@ Here are three different views based on devise screen sizes:
 <div>
 <img width="384" alt="768" src="https://user-images.githubusercontent.com/22566791/85271955-5b374480-b430-11ea-8b33-23be9763d5de.png">
 </div>
+
+#NOTE
+Instruction in README for this homework mentioned: "On an xs screen, content should take up the entire screen. On sm AND larger screens, you should have some margins on the left and right sides of the screen". But Bootstrap 4 breakpoint sm is 576px but md is 768px. So I believe that was a typo. Also, from the screenshots provided in Assets folder, it seems on 768px screen, content takes up the entire screen rather than same layout as larger screen.
+My solution is based on the screenshots.
