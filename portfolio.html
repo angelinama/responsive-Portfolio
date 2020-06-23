@@ -11,37 +11,40 @@
   </head>
   
   <body>
-    <!-- Start Nav -->
-    <nav class="navbar navbar-light bg-white p-0 navbar-expand-md">
+     <!-- Start Nav -->
+     <nav class="navbar navbar-light bg-white navbar-expand-md sticy-top p-0">
+      <!-- add container without row made list move to right side automatically due to justify-content: space-between-->
+      <!-- the usage of container is to center content in navbar -->
       <div class="container-md">
-        <span class="navbar-brand bg-info text-white h1">Angelina Ma</span>
-        <ul class="navbar-nav ml-auto p-3">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <!-- create the vertical bar between links -->
-          <li class="nav-item">
-            <p class="nav-link">&nbsp;|&nbsp;</p>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <p class="nav-link">&nbsp;|&nbsp;</p>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+          <span class="nav navbar-brand bg-info text-white h1 p-3">Angelina Ma</span>
+          <!-- without using container, need ml-auto to put links to the right side -->
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <!-- create the vertical bar between links -->
+            <li class="nav-item">
+              <p class="nav-link">&nbsp;|&nbsp;</p>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">&nbsp;|&nbsp;</p>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
       </div>
     </nav>
     <!-- End Nav -->
 
-     <!-- start main content -->
+    <!-- start main content -->
     <!-- container-md will make sure < 768px will take 100%) -->
-    <main class="my-4 container-md">
+    <main class="my-4">
       <div class="container-md">
-        <div class="row">
+        <div class="row mx-0">
           <div class="col-12 col-md-8 border bg-white py-4">
             <div class="page-header border-bottom">
               <h1 class="h1 text-info">Portfolio</h1>
