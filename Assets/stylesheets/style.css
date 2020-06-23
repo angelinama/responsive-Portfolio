@@ -10,10 +10,6 @@ body {
 }
 
 main {
-    /* height:auto; */
-    /* min-height: 100%; */
-    /* margin-bottom: -68px;      */
-    /* 68px is the height of the footer */
     flex: 1 0 auto;
 }
 
@@ -36,9 +32,8 @@ footer {
 }
 
 .card-img-overlay {
-    bottom: 10%;
+    bottom: 1.25rem;
     top: auto;
-    max-width: 100%;
 }
 
 @media screen and (max-width: 767.98px) {
