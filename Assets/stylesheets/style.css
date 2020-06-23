@@ -42,12 +42,6 @@ footer {
         margin-right: auto;
         text-align: center;
     }
-    
-    /* need to change margin to make the list centered */
-    .navbar-nav {
-        margin-left: auto;
-        margin-right: auto;
-    }
  }
 
 
